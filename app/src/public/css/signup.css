@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#signup_box{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 60%;
+    /*background-color: blue;*/
+    height: 100%;
+}
+#place1 input{
+    margin-bottom: 5vh;
+    height: 5vh;
+    width: 50%;
+    text-indent: 2vh;
+    border-style: solid;
+    border-radius: 1vh;
+    font-weight: bold;
+}

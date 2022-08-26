@@ -1,15 +1,40 @@
 <!DOCTYPE html>
-<html lang="ko">
-<head>
+<html lang="en">
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script  defer src="/js/home/login.js"></script>
-</head>
-<body>
-    <input id="id" type="text" placeholder="id"><br>
-    <input id="pwd" type="text" placeholder="pwd"><br>
-    <button id="login">로그인</button>
-</body>
+    <title>빈네르 Beenheur</title>
+    <link rel = "stylesheet" href="css/login.css"/>
+    <script src = "https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script defer src="js/home/login.js"></script>
+  </head>
+  <body>
+    <h1>
+      <a href="https://osm0517.github.io/My_webpage/main.html">
+        Beenheur
+      </a>
+    </h1>
+    <div id = "login_box">
+      <div id = "login">
+        <input class = "signin" id = "top_box" type="text" placeholder="아이디">
+        <input class = "signin" type="password" placeholder="비밀번호">
+      </div>
+      <div id = "password_search">
+        <div id = "auto_login_div">
+          <input id = "auto_login" type="radio">
+          <label for="auto_login">
+            자동 로그인
+          </label>
+        </div>
+        <div id = "search_div">
+          <input class = "search" type="button" value="아이디 찾기">
+          <input class = "search" type="button" value="비밀번호 찾기">
+        </div>
+      </div>
+      <input class = "buttons" id = "login_button" type="button" value="로그인">
+      <input class = "buttons" id = "signup_button" type="button" value="회원가입">
+    </div>
+  </body>
+  
 </html>
